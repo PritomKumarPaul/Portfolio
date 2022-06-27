@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="images/austlogo.png" />
+    <!--btstrp 5 cdn links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!--navbar section-->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/PortfolioLogo.png" class="img-fluid" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!--<span class="navbar-toggler-icon"></span>-->
+            <i class="fas fa-stream"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact Me">Contact Me</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#Contact Me">Hire Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--navbar exit section-->
+
+    <!--banner section-->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>WELCOME TO MY PORTFOLIO</h6>
+            <h1>
+              I'm Pritom Kumar Paul<br /><span>Web Developer.</span><br />From
+              Bangladesh.
+            </h1>
+            <div class="mt-4">
+              <a class="main-btn" href="">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--banner section exit-->
+
+    <!--about section-->
+    <section id="About" class="about_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-lg-0">
+            <img
+              src="images/profile_pic.jpg"
+              class="img-fluid rounded-3"
+              alt="About-Me"
+            />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0">
+              <span class="subtitle">My About Details</span>
+              <h2>About Me</h2>
+              <p>
+                I am an Web Designer and Software Developer. I am from
+                Bangladesh.
+              </p>
+            </div>
+            <div class="pt-4">
+              <ul
+                class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-Hobbies-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Hobbies"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Hobbies"
+                    aria-selected="true"
+                  >
+                    Hobbies
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Education"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Education"
+                    aria-selected="false"
+                  >
+                    Education
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Sports-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Sports"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Sports"
+                    aria-selected="false"
+                  >
+                    Sports
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Awards-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Awards"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Awards"
+                    aria-selected="false"
+                  >
+                    Awards
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-Hobbies"
+                  role="tabpanel"
+                  aria-labelledby="pills-Hobbies-tab"
+                >
+                  <div class="container">
+                    <div class="row mt-3 mb-3">
+                      <div class="col-md-6 mt-3 mb-3">
+                        <ul>
+                          <li>
+                            Coding
+                          </li>
+                          <li>
+                            Body building
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6 mt-3 mb-3">
+                        <ul>
+                          <li>
+                            Tree PLanting
+                          </li>
+                          <li>
+                            Playing Video Games
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-Education"
+                  role="tabpanel"
+                  aria-labelledby="pills-Education-tab"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">
+                        Department of CSE,
+                        <span>AUST,</span><br />
+                        <span>CURRENT CGPA-3.6675</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        HSC,
+                        <span>BNMPC,</span><br />
+                        <span>GPA-5.00</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        SSC,
+                        <span>MUBC,</span><br />
+                        <span>GPA-5.00</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-Sports"
+                  role="tabpanel"
+                  aria-labelledby="pills-Sports-tab"
+                >
+                <div class="container">
+                  <div class="row mt-3 mb-3">
+                    <div class="col-md-6 mt-3 mb-3">
+                      <ul>
+                        <li>
+                          Cricket
+                        </li>
+                        <li>
+                          Football
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <ul>
+                        <li>
+                          Badminton
+                        </li>
+                        <li>
+                          Sprint
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-Awards"
+                  role="tabpanel"
+                  aria-labelledby="pills-Awards-tab"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">
+                        Intra School Cricket Torunament-2017
+                        <span>-Winner</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Intra School Football Torunament-2018
+                        <span>-Winner</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Aust Intra Programming Cosntest Fall-2021
+                        <span>-Winner</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--about section exit-->
+
+    <!--exp section-->
+    <section id="Experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h1>My Experience</h1>
+            <div class="subtitle">I have done some works on C++,assembly language and java</div>
+            <p></p>
+          </div>
+          <div class="col-sm-12">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/exp1.jpg" class="imgexp" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>C++ code</h5>
+                    <p>succesfully solved the tsp problem</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/exp2.jpg" class="imgexp" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Assembly code</h5>
+                    <p>Have knowledge about arrays strings additions in assembly</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/exp3.jpg" class="imgexp" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>java projects</h5>
+                    <p>Succesfully made a functional calculator</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--exp section exit-->
+
+    <!--skill section-->
+    <section id="Skills" class="services_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <div class="row">
+              <div class="subtitle">What I can do for you</div>
+              <h2>My professional Skills</h2>
+              <p>
+                As I am from CSE background,<br class="d-none d-md-block" />
+                I can perform works related to CSE.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 mb-4">
+                <div class="card">
+                  <div class="card-body text-md-start text-center">
+                    <img
+                      src="images/service/service-1.svg"
+                      alt="app development logo"
+                      class="img-fluid mb-4"
+                    />
+                    <h3>Andriod App development</h3>
+                    <p>high quality and demanding android app developing</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-4">
+                <div class="card">
+                  <div class="card-body text-md-start text-center">
+                    <img
+                      src="images/service/service-2.svg"
+                      alt="app development logo"
+                      class="img-fluid mb-4"
+                    />
+                    <h3>Graphics Designing</h3>
+                    <p>professional level graphics-designing</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-4">
+                <div class="card">
+                  <div class="card-body text-md-start text-center">
+                    <img
+                      src="images/service/service-3.svg"
+                      alt="app development logo"
+                      class="img-fluid mb-4"
+                    />
+                    <h3>Software development</h3>
+                    <p>high quality and relevent android app developing</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-4">
+                <div class="card">
+                  <div class="card-body text-md-start text-center">
+                    <img
+                      src="images/service/service-4.svg"
+                      alt="app development logo"
+                      class="img-fluid mb-4"
+                    />
+                    <h3>Web development</h3>
+                    <p>User friendly Website developing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--skill section exit-->
+
+    <!--portfolio section-->
+    <section id="Portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">My complete project</span>
+            <h2>My Latest Projects</h2>
+            <p>
+              I have done recent projects on android studios, java,
+              <br class="d-none d-md-block" />i-graphics, html etc.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <img src="images/pf1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">My Android Studio Project</p>
+                <a href="https://pritomkumarpaul.github.io/FoodOrderingApp/" target="_blank" class="btn btn-secondary">Git Hub Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <img src="images/pf2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">My I-graphics Project</p>
+                <a href="https://pritomkumarpaul.github.io/Hunter_Shark/ " target="_blank" class="btn btn-secondary">Git Hub Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <img src="images/pf3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">My Java Project</p>
+                <a href="https://pritomkumarpaul.github.io/CGPA_calculator/" target="_blank" class="btn btn-secondary">Git Hub Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <img src="images/pf4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">My HTML project</p>
+                <a href="https://pritomkumarpaul.github.io/HTML1/" target="_blank" class="btn btn-secondary">Git Hub Link</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--portfolio section exit-->
+
+    <!--contact me section-->
+    <section id="Contact Me" class="contact_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div
+            class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center"
+          >
+            <span class="subtilte">My Complete Project</span>
+            <h2>Hire Me</h2>
+            <div class="row call_details mb-4">
+              <label class="col-sm-3 col-lg-4">Call Me directly:</label>
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="javascript:void(0)">01520101221</a>
+              </div>
+              <label class="col-sm-3 col-lg-4">Contact E-mail:</label>
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="mailto:pritompaul2000@gmail.com"
+                  >pritompaul2000@gmail.com</a
+                >
+              </div>
+            </div>
+            <form action="">
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Phone..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your E-mail..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <textarea
+                  id="message"
+                  cols="40"
+                  rows="4"
+                  placeholder="write a message...."
+                  autocomplete="off"
+                >
+                </textarea>
+              </div>
+              <button type="submit" class="main-btn">submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+            <img src="images/bg-image1.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact me section exit-->
+
+    <!--Hire me section-->
+
+    <!--Hire me section exit-->
+
+    <!--Footer section-->
+    <section id="Contact Me" class="footer_wrapper mt-3 mt-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img src="images/austlogo.png" class="img-fluid" alt="logo" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <ul
+              class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0"
+            >
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="copyright-text text-lg-start text-center md-3 mb-lg-0">
+              <p class="mb-0">Copyright @ 2022 Made by <a href="#">Pritom Kumar Paul</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer section exit-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
